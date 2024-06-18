@@ -1,0 +1,74 @@
+.Contact {
+    max-width: 600px;
+    margin: 100px auto; /* Adjust this margin to position the entire box on the page */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .Contact h2 {
+    text-align: center;
+  }
+  
+  .contact-content {
+    margin-top: 20px; /* Adjust this margin to separate the form from the title */
+  }
+  
+  .Contact form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Contact form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .Contact label {
+    margin-bottom: 5px;
+  }
+  
+  .Contact input,
+  .Contact textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .Contact button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .Contact button:hover {
+    background-color: #218838;
+  }
+  
+  .success-message,
+  .error-message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .success-message {
+    border: 1px solid #28a745;
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .error-message {
+    border: 1px solid #e0a800;
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  
+  .extra-content {
+    margin-top: 20px; /* Adjust this margin to separate the extra content from the form */
+  }
+  

@@ -1,0 +1,8 @@
+.Icon {
+    font-size: 3rem; /* Adjust the size of the icon */
+}
+
+.SkillName {
+    font-size: 1.2rem; /* Adjust the size of the skill name */
+    margin-top: 0.5rem; /* Add margin between icon and skill name */
+}
